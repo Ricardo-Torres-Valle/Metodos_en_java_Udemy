@@ -7,6 +7,6 @@ public class PruebaAritmetica {
         Aritmetica aritmetica1 = new Aritmetica();
         aritmetica1.a= 5;
         aritmetica1.b= 2;
-        aritmetica1.sumar();//
+        aritmetica1.sumar();//Help!
     }
 }
