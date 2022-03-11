@@ -11,11 +11,11 @@ public class Aritmetica {
         System.out.println("Resultado: "+resultado);
     }
     public int sumarConRetorno(){
-        return a + b;
+        return this.a + this.b;
     }
     public int sumarConArgumentos(int arg1, int arg2){
-        a= arg1;
-        b= arg2;
-        return a + b;
+        this.a= arg1;
+        this.b= arg2;
+        return this.sumarConRetorno();
     }
 }
